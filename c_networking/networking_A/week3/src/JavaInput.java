@@ -6,10 +6,8 @@ public class JavaInput {
         //Create a scanner object
         Scanner input = new Scanner(System.in);
 
-
         int age;
         String name;
-        double salary;
 
         System.out.println("Enter your age: ");
         age = input.nextInt();
@@ -17,7 +15,7 @@ public class JavaInput {
         input.next();
         name = input.nextLine();
         System.out.println("Enter your salary: ");
-        salary = input.nextDouble();
+        double salary = input.nextDouble();
 
         System.out.printf("My name is %s and I am %d years old. With a salary of %.2f", name, age, salary);
 
