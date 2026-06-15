@@ -57,5 +57,15 @@ public class Variables {
         //\n => new line
         //\t => tab
         //\" \'
+
+        System.out.println("\n\n");
+        int x = 10;
+        int y = 30;
+        int z = x;
+        x = y;
+        y = z;
+
+        System.out.println(x);
+        System.out.println(y);
     }
 }
