@@ -52,6 +52,12 @@ public class Variables {
         System.out.printf("I have an amount of %.2f", amount);
 
 
+        //Escape sequences in output
+        //\n => newline
+        //\t => tab
+        //\"
+        //\\
+
 
 
 
