@@ -32,5 +32,33 @@ public class Variables {
         System.out.println("Num2(30) "+num2);
 
 
+        //output
+        //print, println, printf
+        System.out.print("Hello");
+        System.out.print("Hello");
+        System.out.println();
+        System.out.println("Hello");
+        System.out.println("Hello");
+
+        //java printf
+        //%d integer
+        int age = 20;
+        System.out.printf("I am %d years old.\n",age);
+        //%s String
+        String name = "John Doe";
+        System.out.printf("My name is %s\n", name);
+        //%f float
+        double amount = 34.76;
+        System.out.printf("I have an amount of %.2f", amount);
+
+
+
+
+
+
+
+
+
+
     }
 }
