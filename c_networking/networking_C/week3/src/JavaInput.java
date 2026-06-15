@@ -21,5 +21,7 @@ public class JavaInput {
 
         System.out.printf("My name is %s, I am %d years old. With an amount of GHc%.2f", name, age, amount);
 
+        input.close();
+
     }
 }
