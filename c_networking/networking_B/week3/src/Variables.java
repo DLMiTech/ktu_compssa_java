@@ -71,7 +71,7 @@ public class Variables {
         //Escape sequences
         //\n => new line
         //\t => tab
-        //\" or \'
+        //\" or \',.
     }
 
 }
