@@ -48,6 +48,7 @@ public class Variables {
         //Casting
         //Automatic casting
         double b = 10;
+
         System.out.println(b);
         //Manual casting
         int d = (int) 10.1;
