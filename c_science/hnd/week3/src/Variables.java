@@ -54,5 +54,7 @@ public class Variables {
         int d = (int) 10.1;
         System.out.println(d);
 
+        System.out.println("Hello World");
+
     }
 }
